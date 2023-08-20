@@ -17,6 +17,8 @@ ul {
   padding: 0;
 }
 
+
+
 .container {
   width: 1170px;
   margin-left: auto;
@@ -115,7 +117,18 @@ p {
 
 .menu-contact + .menu-contact {
   margin-left: 50px;
+
 }
+
+svg:hover {
+  color: #2196f3;
+}
+
+
+.header-email:hover {
+  fill: #2196f3;
+}
+
 
 .hero {
   padding: 200px 0;
@@ -165,6 +178,7 @@ p {
   line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  margin-top: 30px;
 }
 
 .advantages-desc {
@@ -203,6 +217,52 @@ p {
   column-gap: 30px;
   margin-top: 50px;
 }
+
+.box-1 {
+  position: absolute;
+  border: 1px solid #2F303ACC;
+  width: 370px;
+  height: 70px;
+  top: 1615px;
+  background-color: #2F303ACC;
+  border: none;
+}
+
+.box-text {
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+margin-top: 25px;
+}
+
+.box-2 {
+  position: absolute;
+  border: 1px solid #2F303ACC;
+  width: 370px;
+  height: 70px;
+  top: 1615px;
+  left: 490px;
+  background-color: #2F303ACC;
+  border: none;
+}
+
+.box-3 {
+  position: absolute;
+  border: 1px solid #2F303ACC;
+  width: 370px;
+  height: 70px;
+  left: 890px;
+  top: 1615px;
+  background-color: #2F303ACC;
+  border: none;
+}
+
 
 .section-team {
   background: #f5f4fa;
@@ -337,9 +397,6 @@ p {
   padding-top: 60px;
 }
 
-.logos:hover {
-
-}
 
 .logo-web-footer {
   color: #2196f3;
