@@ -218,17 +218,17 @@ svg:hover {
   margin-top: 50px;
 }
 
-.box-1 {
-  position: absolute;
-  border: 1px solid #2F303ACC;
-  width: 370px;
-  height: 70px;
-  top: 1615px;
-  background-color: #2F303ACC;
-  border: none;
+.we-do-item {
+  position: relative;
 }
 
-.box-text {
+.we-do-img {
+position: absolute;
+top: 225px;
+width: 370px;
+height: 42px;
+background-color: #2F303ACC;
+text-align: center;
 color: #FFF;
 text-align: center;
 font-family: Roboto;
@@ -238,29 +238,7 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 0.42px;
 text-transform: uppercase;
-margin-top: 25px;
-}
-
-.box-2 {
-  position: absolute;
-  border: 1px solid #2F303ACC;
-  width: 370px;
-  height: 70px;
-  top: 1615px;
-  left: 490px;
-  background-color: #2F303ACC;
-  border: none;
-}
-
-.box-3 {
-  position: absolute;
-  border: 1px solid #2F303ACC;
-  width: 370px;
-  height: 70px;
-  left: 890px;
-  top: 1615px;
-  background-color: #2F303ACC;
-  border: none;
+padding-top: 27px;
 }
 
 
@@ -468,4 +446,5 @@ margin-top: 25px;
 
 .fon:hover {
   background-color: #2196f3;
+  
 }
