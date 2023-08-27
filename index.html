@@ -46,7 +46,7 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button class="button">Замовити послугу</button>
+          <button data-modal-open class="button">Замовити послугу</button>
         </div>
       </section>
       <!--Наші особливості-->
@@ -320,11 +320,60 @@
       </div>
     </footer>
 
-   <div class="backdrop">
+
+
+
+   <div data-backdrop class="backdrop is-hidden">
     <div class="modal">
+      <button class="modal-clase-btn">
+        <img data-modal-close src="img/close.svg" alt="close" class="close-icon">
+      </button>
+
+      <form autocomplete="on">
+       <p class="modal-title">
+        Залиште свої дані, ми вам передзвонимо
+       </p>
+
+       <div class="modal-form">
+       <label class="label-modal" for="name">Ім'я</label>
+       <input class="input-modal" type="text" id="name" name="name">
+       <img src="img/persona.svg" alt="persona" width="18px" height="18px" class="icon-modal">
+       </div>
+       
+       <div class="modal-form">
+       <label class="label-modal" for="phone">Телефон</label>
+       <input class="input-modal" type="phone" id="phone" name="phone">
+       <img src="img/phone.svg" alt="phone" width="18px" height="18px" class="icon-modal">
+       </div>
+       
+       <div class="modal-form">
+       <label class="label-modal" for="email">Пошта</label>
+       <input class="input-modal" type="email" id="email" name="email">
+       <img src="img/emails.svg" alt="email" width="18px" height="18px" class="icon-modal">
+      </div>
+       
+       <div class="modal-form">
+        <label class="label-modal" for="comment">Коментар</label>
+       <textarea class="comment-modal" name="comment" id="comment" cols="30" rows="10" placeholder="Введіть текст"></textarea>
+       </div>
+
+       <div class="label-check-modal">
+       <input class="label-check" type="checkbox" id="input-check">
+       <label class="label-check" for="input-check">Погоджуюся з розсилкою та приймаю  <a href="#">Умови договору</a></label>
+       </div>
+
+       <button class="send-btn">Відправити</button>
+
+
+
+       
+      </form>
+
       
+
     </div>
    </div>
 
+   <script src="./js/modal.js"></script>
   </body>
 </html>

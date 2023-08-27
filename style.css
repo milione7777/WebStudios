@@ -446,5 +446,126 @@ padding-top: 27px;
 
 .fon:hover {
   background-color: #2196f3;
+}
+
+.backdrop {
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background-color: #00000033;
+}
+
+.modal {
+   position: absolute;
+   width: 528px;
+   height: 620px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+}
+
+.modal-clase-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border: none;
+  background-color: #FFF;
+}
+
+
+
+.backdrop.is-hidden {
+opacity: 0;
+pointer-events: none;
+}
+
+.modal-title {
+   margin-top: 40px;
+   text-align: center;
+   font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  color: #212121;
+  margin-bottom: 12px;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.modal-form + 
+.modal-form {
+  margin-top: 21px;
+}
+
+.input-modal {
+  width: 416px;
+  height: 40px;
+  border-radius: 4px;
+  padding-left: 35px;
+}
+.comment-modal {
+  width: 450px;
+  height: 120px;
+  resize: none;
+}
+
+.label-modal {
+  color: #757575;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.12px;
+  margin-bottom: 4px;
+
+}
+
+.label-check {
+  color: #757575;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
   
 }
+
+.label-check-modal {
+  margin-left: 52px;
+  margin-top: 20px;
+}
+
+.send-btn {
+  display: block;
+  margin-left: 164px;
+  padding: 10px 52px;
+  margin-top: 30px;
+  border-radius: 4px;
+  background: #2196F3;
+  border: none;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.96px;
+}
+
+.icon-modal {
+ margin-top: -31px;
+ margin-left: 12px;
+}
+
+
