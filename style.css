@@ -111,6 +111,10 @@ p {
   letter-spacing: 0.28px;
 }
 
+.header-contact-icons {
+  fill: red;
+}
+
 .header-contact:hover {
   color: #2196f3;
 }
@@ -120,22 +124,31 @@ p {
 
 }
 
-svg:hover {
-  color: #2196f3;
+.header-contact {
+  margin-left: 10px;
 }
 
+.menu-contact:hover {
+  color: #2196F3;
+}
 
-.header-email:hover {
-  fill: #2196f3;
+#envelope:hover {
+  fill: #2196F3;
+}
+
+#Vector:hover {
+  fill: #2196F3;
 }
 
 
 .hero {
   padding: 200px 0;
-  background-image: url(img/Img.png);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.40), #2F303A66),
+   url(img/Img.png);
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
+  
 }
 
 .hero-title {
@@ -346,7 +359,7 @@ padding-top: 27px;
 
 .customer-logos {
   display: flex;
-  margin-left: 80px;
+
   column-gap: 30px;
   margin-top: 50px;
   margin-bottom: 94px;
