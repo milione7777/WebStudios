@@ -17,7 +17,11 @@ ul {
   padding: 0;
 }
 
-
+svg path {
+  fill: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+}
 
 .container {
   width: 1170px;
@@ -82,6 +86,10 @@ p {
   margin-left: 93px;
 }
 
+.icon {
+  margin-right: 10px;
+}
+
 .list-item {
   color: #212121;
   font-family: Roboto;
@@ -99,6 +107,7 @@ p {
 .list-contact {
   display: flex;
   margin-left: auto;
+  column-gap: 10px;
 }
 
 .header-contact {
@@ -111,12 +120,14 @@ p {
   letter-spacing: 0.28px;
 }
 
-.header-contact-icons {
-  fill: red;
+.header-contact:hover,
+.header-contact:focus {
+  color: #2196f3;
 }
 
-.header-contact:hover {
-  color: #2196f3;
+.header-contact:hover 
+.icon{
+  fill: #2196F3;
 }
 
 .menu-contact + .menu-contact {
@@ -126,20 +137,8 @@ p {
 
 .header-contact {
   margin-left: 10px;
-}
 
-.menu-contact:hover {
-  color: #2196F3;
 }
-
-#envelope:hover {
-  fill: #2196F3;
-}
-
-#Vector:hover {
-  fill: #2196F3;
-}
-
 
 .hero {
   padding: 200px 0;
@@ -313,36 +312,11 @@ padding-top: 27px;
   font-size: 30px;
 }
 
-.icon-instagram:hover {
-  color: white;
-  border: 1px solid #2196f3;
-  padding: 12px;
-  border-radius: 50px;
-  background-color: #2196f3;
-}
+.logos {
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: 1px solid #AFB1B8;
 
-.icon-twitter:hover {
-  color: white;
-  border: 1px solid #2196f3;
-  padding: 12px;
-  border-radius: 50px;
-  background-color: #2196f3;
-}
-
-.icon-facebook:hover {
-  color: white;
-  border: 1px solid #2196f3;
-  padding: 12px;
-  border-radius: 50px;
-  background-color: #2196f3;
-}
-
-.icon-linkedin:hover {
-  color: white;
-  border: 1px solid #2196f3;
-  padding: 12px;
-  border-radius: 50px;
-  background-color: #2196f3;
 }
 
 .regular-customers {
@@ -510,6 +484,10 @@ padding-top: 27px;
   margin-left: 10px;
 }
 
+.telegram {
+  margin-left: 10px;
+}
+
 .backdrop {
 position: fixed;
 top: 0;
@@ -629,5 +607,7 @@ pointer-events: none;
  margin-top: -31px;
  margin-left: 12px;
 }
+
+
 
 
