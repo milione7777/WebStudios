@@ -88,6 +88,8 @@ p {
 
 .icon {
   margin-right: 10px;
+   fill: #757575;
+
 }
 
 .list-item {
@@ -107,7 +109,6 @@ p {
 .list-contact {
   display: flex;
   margin-left: auto;
-  column-gap: 10px;
 }
 
 .header-contact {
@@ -132,11 +133,6 @@ p {
 
 .menu-contact + .menu-contact {
   margin-left: 50px;
-
-}
-
-.header-contact {
-  margin-left: 10px;
 
 }
 
@@ -261,6 +257,21 @@ padding-top: 27px;
   align-items: center;
   border-radius: 0px 0px 4px 4px;
 }
+
+.icon-network {
+    fill: #AFB1B8;
+}
+
+
+.icon-network:hover {
+      fill: #fff;
+      padding: 12px;
+      background-color: #2196F3;
+      border-radius: 50%;
+      overflow: hidden;
+}
+
+
 
 .team-list {
   display: flex;
@@ -442,16 +453,14 @@ padding-top: 27px;
 
 .footer-title {
   color: #FFF;
-  font-family: Roboto;
   font-size: 14px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
 
 .footer-input-email {
+  padding-left: 16px;
   width: 358px;
   height: 50px;
   border-radius: 4px;
@@ -468,11 +477,9 @@ padding-top: 27px;
   border-radius: 4px;
   color: #FFF;
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.96px;
   background: #2196F3;
   display: flex;
@@ -558,6 +565,14 @@ pointer-events: none;
   resize: none;
 }
 
+#icon-close {
+  fill: #0000001A;
+}
+
+.modal-close:hover {
+     fill: #2196F3;
+}
+
 .label-modal {
   color: #757575;
   font-family: Roboto;
@@ -601,6 +616,16 @@ pointer-events: none;
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.96px;
+}
+
+.footer-input-email::placeholder {
+
+   padding-top: 15px;
+   padding-bottom: 15px;
+   color: rgba(255, 255, 255, 0.60);
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.48px;
 }
 
 .icon-modal {

@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>проект 10</title>
     <link rel="stylesheet" href="https://github.com/sindresorhus/modern-normalize">
-    <link rel="stylesheet" href="style.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,400;0,500;1,400;1,500;1,700&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="icomoon/icons.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- Header -->
@@ -65,7 +65,7 @@
           <ul class="advantages-list">
             <li class="advantages-item">
               <svg width="270" height="120">
-                <use href="./sprite/symbol-defs.svg#icon-antenna"></use>
+                <use href="./sprite/symbol-defs.svg#icon-antena"></use>
               </svg>
               <h3 class="advantages-title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="advantages-desc">
@@ -136,14 +136,15 @@
               <ul class="icons-team">
                  <li class="network-icons">
                  <a href="#">
-                 <svg width="20" height="20" class="icon-instagram">
+                 <svg width="20" height="20" class="icon-network">
                   <use href="./sprite/symbol-defs.svg#icon-insta-1"></use>
                  </svg>
+
                  </a>
                  </li>
                  <li class="network-icons">
-                  <a href="#">
-                    <svg width="20" height="20">
+                  <a href="#" class="fon-network">
+                    <svg width="20" height="20" class="icon-network">
                       <use href="./sprite/symbol-defs.svg#icon-twitter-1"></use>
                      </svg>
                   </a>
@@ -391,7 +392,7 @@
        
        <div class="footer-email">
        <p class="footer-title">Підпишіться на розсилку</p>
-       <input class="footer-input-email" type="email" id="email" name="email" placeholder="Введіть текст">
+       <input class="footer-input-email" type="email" id="email" name="email" placeholder="E-mail">
        <a href="#"><button class="footer-btn">Підписатися
       <svg width="24" height="24" class="telegram">
         <use href="./sprite/symbol-defs.svg#icon-telegram"></use>
@@ -409,7 +410,9 @@
    <div data-backdrop class="backdrop is-hidden">
     <div class="modal">
       <button class="modal-clase-btn">
-        <img data-modal-close src="img/close.svg" alt="close" class="close-icon">
+        <svg data-modal-close width="30" height="30" class="modal-close">
+          <use href="./sprite/symbol-defs.svg#icon-close"></use>
+        </svg>
       </button>
 
       <form autocomplete="on">
@@ -420,19 +423,26 @@
        <div class="modal-form">
        <label class="label-modal" for="name">Ім'я</label>
        <input class="input-modal" type="text" id="name" name="name">
-       <img src="img/persona.svg" alt="persona" width="18px" height="18px" class="icon-modal">
+       <svg width="18px" height="18px" class="icon-modal">
+        <use href="./sprite/symbol-defs.svg#icon-person-black-18dp-1"></use>
+       </svg>
        </div>
        
        <div class="modal-form">
        <label class="label-modal" for="phone">Телефон</label>
        <input class="input-modal" type="phone" id="phone" name="phone">
-       <img src="img/phone.svg" alt="phone" width="18px" height="18px" class="icon-modal">
+       <svg width="18px" height="18px" class="icon-modal">
+        <use href="./sprite/symbol-defs.svg#icon-phone-black-18dp-1"></use>
+       </svg>
        </div>
        
        <div class="modal-form">
        <label class="label-modal" for="email">Пошта</label>
        <input class="input-modal" type="email" id="email" name="email">
-       <img src="img/emails.svg" alt="email" width="18px" height="18px" class="icon-modal">
+       <svg width="18px" height="18px" class="icon-modal">
+        <use href="./sprite/symbol-defs.svg#icon-email-black-18dp-1"></use>
+       </svg>
+
       </div>
        
        <div class="modal-form">
