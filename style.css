@@ -262,15 +262,22 @@ padding-top: 27px;
     fill: #AFB1B8;
 }
 
-
-.icon-network:hover {
-      fill: #fff;
-      padding: 12px;
-      background-color: #2196F3;
-      border-radius: 50%;
-      overflow: hidden;
+.svg-team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.svg-team:hover {
+  padding: 12px;
+  background-color: #2196F3;
+  border-radius: 50%;
+
+}
+
+.svg-team:hover .icon-network {
+  fill: #fff;
+}
 
 
 .team-list {
@@ -324,11 +331,27 @@ padding-top: 27px;
 }
 
 .logos {
-  padding: 16px 32px;
-  border-radius: 4px;
-  border: 1px solid #AFB1B8;
-
+  fill: #AFB1B8;
 }
+
+
+.logo-all {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+}
+
+.logo-all:hover {
+  border-color: #2196F3;
+}
+
+.logo-all:hover .logos {
+  fill: #2196F3;
+}
+
 
 .regular-customers {
   color: #212121;
@@ -532,9 +555,7 @@ pointer-events: none;
 .modal-title {
    margin-top: 40px;
    text-align: center;
-   font-family: Roboto;
   font-size: 20px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.6px;
@@ -560,9 +581,14 @@ pointer-events: none;
   padding-left: 35px;
 }
 .comment-modal {
-  width: 450px;
+  width: 424px;
   height: 120px;
   resize: none;
+  padding: 12px 16px;
+  color: rgba(117, 117, 117, 0.50);
+  font-size: 12px;
+  line-height: normal;
+  letter-spacing: 0.12px;
 }
 
 #icon-close {
@@ -600,6 +626,8 @@ pointer-events: none;
   margin-left: 52px;
   margin-top: 20px;
 }
+
+
 
 .send-btn {
   display: block;
