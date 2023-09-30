@@ -93,13 +93,30 @@ p {
 }
 
 .list-item {
+  position: relative;
   color: #212121;
-  font-family: Roboto;
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
   letter-spacing: 0.28px;
+  display: block;
+  padding: 10px 20px;
+  
+}
+
+.list-item::after {
+  position: absolute;
+  left: 20px;
+  top: 45px;
+  display: block;
+  content: "";
+  width: 48px;
+  height: 3px;
+  background-color: #2196F3;
+  border-radius: 2px;
+  opacity: 0; 
+}
+.list-item:hover::after{
+    opacity: 1;
 }
 
 .list-item:hover {
