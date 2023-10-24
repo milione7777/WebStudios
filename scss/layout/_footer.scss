@@ -1,0 +1,147 @@
+.footer {
+    background: #2f303a;
+    height: 252px;
+  }
+  
+  
+  .logo-web-footer {
+    color: #2196f3;
+  }
+  
+  .logo-studio-footer {
+    color: #fff;
+  }
+  
+  .address-footer {
+    width: 220px;
+    margin-top: 20px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+  }
+  
+  .footer-contact {
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+  }
+  
+  .footer-contact-list {
+    margin-top: 9px;
+  }
+  
+  .footer-contact-items {
+    margin-top: 9px;
+  }
+  
+  .footer-network {
+    margin-top: 5px;
+    margin-left: 80px;
+  }
+  
+  .text-footer {
+    color: #fff;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+  }
+  
+  .network-all {
+    display: flex;
+    column-gap: 10px;
+    margin-top: 30px;
+  }
+  
+  .svg-fon {
+    padding: 17px 12px 10px 12px;
+    background-color: #ffffff1a;
+    border-radius: 100%;
+  }
+  
+  .svg-fon:hover {
+    padding: 17px 12px 10px 12px;
+    background-color: #2196f3;
+    border-radius: 100%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .footer-input {
+    margin-left: 40px;
+    column-gap: 10px;
+    margin-left: 90px;
+    display: flex;
+  }
+  
+  .label-footer-text {
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+  }
+  
+  .input-footer {
+    margin-top: 20px;
+    width: 355px;
+    height: 50px;
+    border-radius: 4px;
+    background: #2f303a;
+    color: #ffffff4d;
+  }
+  .input-footer {
+    display: block;
+  }
+  
+  input {
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.48px;
+  }
+  
+  .label-input-footer {
+    display: block;
+  }
+  
+  .btn-subscribe {
+    height: 55px;
+    padding: 15px 32px 10px 28px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.87;
+    letter-spacing: 0.96px;
+    background: #2196f3;
+    display: flex;
+    column-gap: 10px;
+    margin-top: 36px;
+  }
+  
+  .footer-input-email::placeholder {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.48px;
+  }
+  
+  .svg-footer {
+    margin-top: 3px;
+  }

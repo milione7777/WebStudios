@@ -1,0 +1,40 @@
+
+.section-title {
+    text-align: center;
+    padding-top: 94px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+  }
+  
+  .we-do-list {
+    display: flex;
+    column-gap: 30px;
+    margin-top: 50px;
+  }
+  
+  .we-do-item {
+    position: relative;
+  }
+  
+  .we-do-img {
+    position: absolute;
+    top: 225px;
+    width: 370px;
+    height: 42px;
+    background-color: #2f303acc;
+    text-align: center;
+    color: #fff;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    padding-top: 27px;
+  }
